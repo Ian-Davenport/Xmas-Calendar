@@ -1,0 +1,95 @@
+/* EACH CSS RULE BELOW SHOULD BE PAGE 1 TOP DOWN, THEN PAGE 2 TOP DOWN ETC */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* ############################################################ */
+/* INDEX PAGE (MAIN LANDING PAGE) */
+
+* {
+    margin: 0%;     /* Stops a white margin on top bar of screen */
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+/* MAKES THE BACKGROUND IMAGE */
+.indexBackground {
+    /* background: url(./images/christmas-background-46.png) no-repeat center center fixed; */
+    /* background: url(./images/9SjDkx.jpeg) no-repeat center center fixed; */
+    background: url(./images/356730-top-christmas-desktop-wallpaper-2048x1312-for-full-hd.jpeg) no-repeat center center fixed; 
+    /* background: url(./images/Christmas-images-free-download.jpeg) no-repeat center center fixed; */
+    background-size: cover;
+}
+
+/* THE PAGE SELECTOR BUTTONS DEFINITION */
+a.button {
+    
+    display:inline-block;
+    padding: 0.8em 2.2em;
+    margin:0 0.3em 0.3em 0;
+    /* border-radius:2em; */
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:500;
+    color:gold;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 20px;
+    text-align:center;
+    transition: all 1.2s;
+    margin-top: 100px;
+}
+
+
+/* .navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ */
+
+
+
+a.day24 {
+    margin-top: 300px;
+    margin-left: 500px;
+   
+    display:inline-block;
+    padding: 0.8em 2.2em;
+    margin:0 0.3em 0.3em 0;
+    border-width: medium;
+
+    border-style: solid;
+    border-radius: 25px;
+    color:gold;
+    font-size: large;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+.container_1 {
+    display: flex;
+
+}
+
+.container_2 {
+
+
+}
+
+
+.container_3 {
+
+
+}
+
+.container_4 {
+
+
+}
+
