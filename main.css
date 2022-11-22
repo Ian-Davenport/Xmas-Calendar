@@ -61,23 +61,28 @@ a.day24 {
 }
 
 
-.row_One {
+.Row_One {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     justify-content: space-evenly;
+
+    flex-wrap: nowrap;
   
 }
 
-.row_Two {
+.Row_Two {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     justify-content: space-evenly;
 }
 
 
-.row_Three {
+.Row_Three {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     justify-content: space-evenly;
 }
 
