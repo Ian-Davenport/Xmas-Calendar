@@ -22,9 +22,9 @@
     background-size: cover;
 }
 
-/* THE PAGE SELECTOR BUTTONS DEFINITION */
+
+/* THE BUTTONS FOR DAYS 1-23 DEFINITION */
 a.button {
-    
     display:inline-block;
     padding: 0.8em 2.2em;
     margin:0 0.3em 0.3em 0;
@@ -40,9 +40,18 @@ a.button {
     text-align:center;
     transition: all 1.2s;
     margin-top: 100px;
+    padding: 32px 32px
 }
 
+.button {
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    background-color: #6e101e; 
+  }
 
+
+/* THE BUTTONS FOR DAY 24 DEFINITION */
 a.day24 {
     margin-top: 300px;
     margin-left: 500px;
@@ -60,15 +69,23 @@ a.day24 {
     height: 300px;
 }
 
+.day24 {
+    transition-duration: 0.4s;
+  }
+  .day24:hover {
+    background-color: #6e101e; 
+  }
 
+
+
+
+/* THE BUTTON ROWS SECTION */
 .Row_One {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-
     flex-wrap: nowrap;
-  
 }
 
 .Row_Two {
@@ -77,7 +94,6 @@ a.day24 {
     justify-content: center;
     justify-content: space-evenly;
 }
-
 
 .Row_Three {
     display: flex;
