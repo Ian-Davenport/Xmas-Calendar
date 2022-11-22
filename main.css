@@ -43,15 +43,6 @@ a.button {
 }
 
 
-/* .navContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
- */
-
-
-
 a.day24 {
     margin-top: 300px;
     margin-left: 500px;
@@ -70,26 +61,31 @@ a.day24 {
 }
 
 
-
-
-.container_1 {
+.row_One {
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-evenly;
+  
 }
 
-.container_2 {
-
-
+.row_Two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
-.container_3 {
-
-
+.row_Three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.container_4 {
-
-
+.xmas_eve {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    left: 50%;
+    right: 50%;
 }
-
