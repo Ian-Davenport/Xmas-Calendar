@@ -39,7 +39,7 @@ a.button {
     border-radius: 20px;
     text-align:center;
     transition: all 1.2s;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 32px 32px
 }
 
@@ -53,7 +53,7 @@ a.button {
 
 /* THE BUTTONS FOR DAY 24 DEFINITION */
 a.day24 {
-    margin-top: 300px;
+    margin-top: 200px;
     margin-left: 500px;
    
     display:inline-block;
@@ -106,7 +106,7 @@ a.day24 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 60px;
     left: 50%;
     right: 50%;
 }
