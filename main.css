@@ -28,7 +28,7 @@ a.button {
     display:inline-block;
     padding: 0.8em 2.2em;
     margin:0 0.3em 0.3em 0;
-    /* border-radius:2em; */
+    background-color: transparent;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
@@ -51,7 +51,7 @@ a.button {
   }
 
 
-/* THE BUTTONS FOR DAY 24 DEFINITION */
+/* THE BUTTON FOR DAY 24 DEFINITION */
 a.day24 {
     margin-top: 200px;
     margin-left: 500px;
